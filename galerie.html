@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galerie</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="style_galerie.css">
+</head>
+
+<body>
+    <h1>Galerie</h1>
+
+    <select name="selection" id="category">
+        <option value="default" selected>Alle Kategorien</option>
+        <option value="abspringtechnick">Abspringtechnick</option>
+        <option value="collagen">collagen</option>
+        <option value="drucke">druck monotypie</option>
+        <option value="feder">feder bleistiftzeichnungen</option>
+        <option value="gemälde">gemälde</option>
+        <option value="skulpturen">skulpturen</option>
+        <option value="wachsschichttechnik">wachsschichttechnik</option>
+    </select>
+
+    <main>
+
+        <div class="container">
+
+            <div id="buttons">
+                <div>
+                    <button onclick="window.location.href=`Lebenslauf.html`">
+                        Lebenslauf
+                        <span>>></span>
+                    </button>
+                </div>
+
+                <div>
+                    <button onclick="window.location.href=`index.html`">
+                        Hauptseite
+                        <span>>></span>
+                    </button>
+                </div>
+            </div>
+
+
+    </main>
+
+    <section id="popupFrame">
+        <img id="popupImg" src="Full_Size_Image/image_0.jpg" alt="">
+        <div>
+            <button id="backward">&larr;</button>
+            <button id="back">Züruck</button>
+            <button id="forward">&rarr;</button>
+        </div>
+    </section>
+
+    <footer>
+        Copyright © 2021 | Ulrich Rohmann
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+        integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
+        crossorigin="anonymous"></script>
+
+
+    <script src="app2.js"></script>
+</body>
+
+</html>
